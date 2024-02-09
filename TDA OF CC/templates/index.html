@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization Management</title>
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css"> 
+
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <div class="logo"><a style="text-decoration: none; color: pink;" href="{{ url_for('index') }}">ORGANIZATION <br> MANAGEMENT</a></div>
+        <ul class="nav-links">
+            <li><a href="#">Categories</a></li>
+            <li><a href="prices">Pricing</a></li>
+            <li><a href="about">About</a></li>
+        </ul>
+        <div class="login">
+            <button><a href="login">Login</a></button>
+        </div>
+    </div>
+
+    <!-- Header section -->
+    <div class="header">
+        <h1>Organize And Manage Your Data</h1>
+    </div>
+
+    <!-- Main section -->
+    <div class="main">
+        <!-- Card one -->
+        <div class="card">
+            <h3>Create New Organization</h3>
+            <p>Streamline your organization's data management with [Your Organization Name] - where simplicity meets efficiency.</p>
+        </div>
+        <!-- Card two -->
+        <div class="card">
+            <h3>Accessing Your Organization</h3>
+            <p>Unlock seamless access to your organization's insights with a click - empowering you to make informed decisions effortlessly.</p>
+        </div>
+    </div>
+
+    <!-- Sign up button -->
+    <div class="sign-up">
+        <button><a style="text-decoration: none; color:black;" href="signup">Sign Up</a></button>
+    </div>
+
+</body>

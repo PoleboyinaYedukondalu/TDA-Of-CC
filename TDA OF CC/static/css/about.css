@@ -1,0 +1,102 @@
+        /* Set the font and color for the whole page */
+        body {
+            font-family: Arial, sans-serif;
+            color: rgb(255, 255, 255);
+            background-color: rgb(9, 2, 42);
+        }
+
+        /* Create a navigation bar with a logo and links */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: rgb(9, 2, 42);
+        }
+
+        /* Style the logo */
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Style the navigation links */
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin: 0 50px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Create a header section with a title and content */
+        .header {
+            padding: 25px;
+            text-align:left;
+            margin-left: 100px;
+        }
+        .login button {
+            width: 130px;
+            height: 40px;
+            border: none;
+            border-radius: 20px;
+            background-color: white;
+            color: black;
+            font-size: 18px;
+        }
+.main {
+    display: flex;
+    justify-content:left;
+    margin-top: 150px;
+    width: 1200px;
+    height: 450px;
+    margin:12px;
+    margin-top: 60px;
+    margin-left: 70px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: rgb(14, 12, 55);
+    box-shadow: 2px 2px 5px  rgb(19, 13, 46);
+}
+
+.card{
+    justify-content: left;
+    padding: 20px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.card button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
+
+.hexagon {
+    background-color: black;
+    justify-content: right;
+    margin-top: 2px;
+    margin-left: 250px;
+    width: 650px;
+    height: 460px;
+    clip-path: polygon(60% 0%, 100% 25%, 100% 75%, 50% 100%, 10% 65%, 10% 25%);
+}
+
+.hexagon img{
+    background-blend-mode: darken;
+    box-shadow: 2px solid black;
+}
+  
+
+
+

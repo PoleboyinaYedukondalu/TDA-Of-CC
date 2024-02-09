@@ -1,0 +1,143 @@
+/* Set the font and color for the whole page */
+body {
+font-family: Arial, sans-serif;
+color: rgb(255, 255, 255);
+background-color: rgb(9, 2, 42);
+}
+
+/* Create a navigation bar with a logo and links */
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+background-color: rgb(9, 2, 42);
+}
+
+/* Style the logo */
+.logo {
+font-size: 24px;
+font-weight: bold;
+}
+
+/* Style the navigation links */
+.nav-links {
+display: flex;
+list-style: none;
+}
+
+.nav-links li {
+margin: 0 50px;
+}
+
+.nav-links a {
+color: white;
+text-decoration: none;
+}
+
+/* Style the search box and button */
+.search {
+display: flex;
+align-items: center;
+}
+
+.search input {
+width: 200px;
+height: 30px;
+border: none;
+border-radius: 5px;
+padding: 5px;
+}
+
+.search button {
+width: 40px;
+height: 40px;
+border: none;
+border-radius: 50%;
+background-color: white;
+color: black;
+font-size: 20px;
+}
+
+/* Create a header section with a title and content */
+.header {
+padding: 25px;
+text-align:left;
+margin-left: 100px;
+}
+
+.header h1 {
+font-size: 36px;
+}
+
+.header p {
+font-size: 18px;
+}
+
+/* Create a main section with two cards */
+.main {
+display: flex;
+justify-content: center;
+padding: 20px;
+}
+
+/* Style the cards */
+.card {
+width: 260px;
+height: 200px;
+margin: 12px;
+padding: 50px;
+border-radius: 10px;
+background-color: rgb(19, 17, 59);
+box-shadow: 2px 2px 5px  rgb(19, 13, 46);
+
+}
+
+.card h3 {
+font-size: 24px;
+}
+
+.card p {
+font-size: 16px;
+}
+
+/* Style the sign up button */
+.sign-up {
+display: flex;
+justify-content: center;
+padding: 20px;
+float:left;
+margin-left: 250px;
+}
+
+/* Style the login buttion */
+.login {
+display: flex;
+justify-content: center;
+padding: 20px;
+}
+.login a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.sign-up button {
+width: 130px;
+height: 40px;
+border: none;
+border-radius: 20px;
+background-color: white;
+color: black;
+font-size: 18px;
+}
+
+.login button {
+width: 130px;
+height: 40px;
+border: none;
+border-radius: 20px;
+background-color: white;
+color: black;
+font-size: 18px;
+}

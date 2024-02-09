@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization Management</title>
+    <link rel="stylesheet" href="static/css/login.css">
+   
+</head>
+<body>
+
+<div class="container">
+    <div class="left-panel">
+       <h1 style="margin-top: 50px; color: pink;"><a style="text-decoration: none; color: pink;" href="{{ url_for('index') }}">ORGANIZATION MANAGEMENT</a></h1>
+        <h2 style="color: solid rgb(255, 247, 247);">Accessing Your Data</h2>
+        <p>Let's get started!</p>
+
+        <form action="GET">
+            <label>Name</label><br>
+            <input type="text" placeholder="Enter Your Full Name" required><br>
+            <label>Password</label><br>
+            <input type="password" placeholder="Password" required><br>
+            <button type="submit">Log In</button><br>
+           <p style="margin-left: 40px;"> Create A New Account 
+            <a href="{{ url_for('signup') }}"class='signup'><span style="font-size: larger; color: white;">Sign Up</span></a><br/> </p>
+        </form>
+
+    </div>
+
+    <div class='right-panel'>
+     <h2><a style="text-decoration: none; color: pink;" href="{{ url_for('index') }}">ORGANIZATION <br> MANAGEMENT</a></h2> 
+      <!-- Logo can be added here -->
+    </div>
+
+</div>
+
+</body>
+</html>

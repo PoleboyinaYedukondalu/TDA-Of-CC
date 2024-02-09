@@ -1,0 +1,91 @@
+ /* Set the font and color for the whole page */
+ body {
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 2, 42);
+}
+
+/* Create a navigation bar with a logo and links */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(9, 2, 42);
+}
+
+/* Style the logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style the navigation links */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 50px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.pricing-container {
+    height: 600px;
+    margin: 70px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .pricing-card {
+    border-radius: 3%;
+    border: 2px solid black ;
+    margin-top: 10px;
+    padding: 50px;
+    color: white;
+  }
+  
+.free {
+   background-color: rgb(28, 17, 69);
+   border: 2px black;
+   box-shadow: 5px 5px 10px rgba(0,0,0,0.2); /* Horizontal offset, vertical offset, blur radius, color */
+  }
+  
+.unlimited {
+    background-color: rgb(28, 17, 69);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2); /* Horizontal offset, vertical offset, blur radius, color */
+  }
+  
+.enterprise {
+    background-color: rgb(28, 17, 69);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2); /* Horizontal offset, vertical offset, blur radius, color */
+  }
+.free:hover, .unlimited:hover, .enterprise:hover {
+    border: 2px solid white;
+}
+.pricing-container button {
+    margin-top: 30px;
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    box-shadow: 100px solid black;
+}
+.pricing-container ul{
+   
+    margin-top: 10px;
+}
+.pricing-container ul li{
+    justify-content: left;
+    margin-top: 30px;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization Management</title>
+    <link rel="stylesheet" href="/static/css/prices.css">
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <div class="logo"><a style="text-decoration: none; color: pink;" href="{{ url_for('index') }}">ORGANIZATION <br> MANAGEMENT</a></div>
+        <ul class="nav-links">
+            <li><a href="#">Categories</a></li>
+            <li><a href="prices">Pricing</a></li>
+            <li><a href="about">About</a></li>
+        </ul>
+    </div>
+
+    <div class="pricing-container">
+        <div class="pricing-card free">
+          <h2>Free <br><span style="font-size:xx-large;">FREE</span></h2>
+          <p>forever free for individuals <br> and small teams up to 3</p>
+          <!-- Add features here -->
+          <ul>
+            <li>Unlimited Access</li>
+            <li>!00MB Storage</li>
+            <li>3 Users</li>
+            <li>Unlimited Tasks</li>
+          </ul>
+          
+          <button><a style="text-decoration: none; color: solid black;" href="login">Start for Free </a></button>
+        </div>
+      
+        <div class="pricing-card unlimited">
+          <h2>Unlimited <br><span style="font-size:xx-large;">$29</span></h2>
+          <p>per user/month billed yearly <br>$39 billed monthly</p>
+          <!-- Add features here -->
+          <ul>
+            <li>All in Free +</li>
+            <li>Unlimited Guests</li>
+            <li>Priority Support</li>
+            <li>Smart Notifications</li>
+          </ul>
+          <button>Get Unlimited</button>
+        </div>
+      
+        <div class="pricing-card enterprise">
+          <h2>Enterprise <br><span style="font-size:xx-large;">$35</span></h2>
+          <p>per user/month billed yearly <br> $45 billed monthly</p>
+          <ul>
+            <li>All in Unlimited</li>
+            <li>Bulk Export</li>
+            <li>Advanced Analytics</li>
+            <li>Advanced Security</li>
+          </ul>
+           <!-- Add features here -->
+           <button>Get Enterprise</button>
+         </div>
+       </div>
+      
+      
+
+</body>
